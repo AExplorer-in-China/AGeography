@@ -1,4 +1,48 @@
+@font-face {
+    font-family: '经典宋体简';
+    src: url('/AGeography/fonts/经典宋体简.ttf');
+}
+
+p {
+    text-indent: 2em;
+    font-family: '经典宋体简';
+}
+
+li {
+    font-family: '经典宋体简';
+}
+
 h1 {
     font-family: '黑体';
     color: #1677b3;
+}
+
+h2 {
+    font-family: '黑体';
+    color: #a7a8bd;
+}
+
+
+
+font.time {
+    font-style: italic;
+}
+
+font.mark {
+    margin: 0 -0.4em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 225, 0, 0.1),
+        rgba(255, 225, 0, 0.7) 4%,
+        rgba(255, 225, 0, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+font.quote {
+    font-family: '楷体';
 }
